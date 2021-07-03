@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Reem Kufi', sans-serif; 
+}
+body {
+    background-color: #FFEB3B;
+    color: #1e1e1e;
+}
+a {
+    color: #1e1e1e;
+    text-decoration: none;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+.intro {
+    font-size: 75px;
+    font-weight: 600;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+#content h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px;
+}
+.tagline {
+    font-size: 35px;
+    margin: 10px;
+    padding: 10px;
+}
+i {
+    font-size: 45px;
+    padding: 15px;
+}
+i:hover {
+    color: #fff;
+}
